@@ -1,0 +1,31 @@
+o What all the objects on screen are
+
+The paddle, the ball, and the bricks, as well as invisible boundary walls/cieling
+
+o What their behavior is supposed to be
+
+ball bounces off of paddle, bricks, and walls
+at the start the player can press space bar or click in order to shoot the ball
+anytime the player misses the ball with the paddle and it hits the floor the player loses one life
+THE PLAYER GETS THREE LIVES
+after dying three times the game is lost
+if the player destroys every brick on the screen the player wins
+the player can press the escape key to reset the entire game
+the ball bounces in the direction of the side of the paddle it hits (i.e. hit it from the left to shoot left catch it from right to bounce right yknow typical breakout mechanics)
+if you wanna purposefully reshoot the ball you can press backspace to get the ball back into starting position at the cost of one life (i.e. pressing backspace three times would make you lose)
+bricks have 3 "lives" as well kind of, i.e. it takes three hits to completely destroy a brick but each hit makes it fade more.
+
+o What the player’s controls are
+space or click to shoot the ball
+mouse movement to aim the paddle
+escape to reset the entire game
+backspace to 
+
+o How the player scores
+
+you win by breaking every brick
+you lose by dying three times
+
+o How the game ends, including win/lose conditions, if appropriate
+
+the game ends when you win by breaking every brick or when you lose by dying three times.
