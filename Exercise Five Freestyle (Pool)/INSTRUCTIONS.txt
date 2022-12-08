@@ -1,0 +1,21 @@
+o What all the objects on screen are: 
+There are invisible squares acting as the walls of the pool table they do not move.
+There are invisible hole objects that detect collisions when balls hit them, they do not move.
+There are fifteen white balls that your goal is to push them into the holes
+There is the single cue ball which you can drag to shoot towards the white balls to knock them into the holes.
+There is the score text in the top left.
+The cue ball is purposefully white to match the color of the other balls to increase the difficulty.
+o What their behavior is supposed to be:
+The walls do not move, nor do the holes, the white balls should be knocked around by collisions and dissappear when coming into contact with the holes
+The cue ball moves by clicking to drag and aim and then is launched by realising the click
+Score increases when the white balls are knocked into holes and is decreased when the cue ball is knocked into the holes.
+o What the player’s controls are:
+The player begins the game and can decide where to place the ball and then after placing the ball the character has to click and drag to shoot to move the ball.
+Whenever the cue ball is scratched the player can take the action of clicking where they want to place the ball.
+The player may also press the escape key to reset the scene when they run out of balls.
+o How the player scores:
+By knocking the white balls into the holes.
+o How the game ends, including win/lose conditions, if appropriate:
+The player wins upon reaching 15 points or loses upon their score falling below zero.
+If the player wants to continue playing after winning or losing they may press the escape key and it will restart the game with their score again at zero
+If the player loses points and cannot reach 15 to win they should press the escape key to reload more balls and it will retain their score.
